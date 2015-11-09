@@ -1,0 +1,213 @@
+/*==========================test==================================*/
+
+.testBorderRed{
+    border:1px solid red;
+}
+.testBorderGreen{
+    border:1px solid green;
+}
+
+/*==========================test==================================*/
+body{
+    background-color: #F1F2F2;
+}
+.mainWrraper{
+    padding-top: 15px;
+    background-color: #FFFFFF;
+    /*box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);*/
+    box-shadow:
+    0 1px 4px rgba(0, 0, 0, .3),
+    -23px 0 20px -23px rgba(0, 0, 0, .8),
+    23px 0 20px -23px rgba(0, 0, 0, .8),
+    0 0 40px rgba(0, 0, 0, .1) inset;
+}
+
+
+/*==========================header==================================*/
+
+.header{
+    width: 100%;
+    height: 150px;
+    position: relative;
+   /* background-image: url("headerLogo.jpg");*/
+    background-color: #FFFFFF;
+}
+.headerLogo{
+    background-image: url("headerLogo.jpg");
+    height: 200px;
+}
+.logo{
+/*    margin-top: 1px;*/
+}
+.phone{
+    margin-top: 38px;
+
+}
+.phone span {
+    color: rgba(34, 34, 34, 0.76);
+}
+.phone div {
+    color: #283593;
+    font-size: 24px;
+
+}
+.phone h3{
+    float: right;
+}
+
+/*==========================header==================================*/
+
+
+
+
+
+/*==========================nav==================================*/
+.navbar{
+    margin-bottom: 0;
+}
+.dropdown-menu > li > a:hover{
+    background-color: #283593;
+}
+.navbar-collapse{
+    padding: 0;
+}
+
+/*==========================nav==================================*/
+
+
+
+
+
+/*==========================slider==================================*/
+
+.carousel-inner > div >:first-child{
+    width: 100%;
+    height: 400px;
+}
+
+.sliderBlock1{
+    background-color: #283593;
+}
+.sliderBlock1 .row >:first-child h4, h1{
+    color: white;
+}
+.sliderBlock1 h1{
+    padding-top: 150px;
+}
+.sliderBlock1 .row >:last-child{
+    background: rgba(200, 200, 200, 0.3);
+    height: 400px;
+}
+
+.sliderBlock2{
+    /*background-color: #283593;*/
+    background-image: url("http://images.bizorg.su/goods/598/312/5983125.jpeg");
+}
+.sliderBlock2 > div{
+    font-size: 32px;
+    padding-top: 170px;
+    color:#E0E0E0;
+}
+
+.sliderBlock3{
+    background-color: palegreen;
+}
+
+/*==========================slider==================================*/
+
+
+
+
+
+/*==========================mainContent==================================*/
+
+.mainContent p{
+    text-align: justify;
+}
+.mainContent p {
+    font-size: 16px;
+}
+.mainContentImg1{
+    margin-right: 15px;
+    float: left;
+}
+.mainContentImg2{
+    margin-left: 15px;
+    float: right;
+}
+
+/*==========================mainContent==================================*/
+
+
+
+
+
+/*==========================rightBlocks==================================*/
+
+.panel-primary{
+    border-color: #283593;
+}
+.panel-primary > .panel-heading{
+    background-color: #283593;
+    border-color: #283593;
+}
+
+.rightBlocks{
+
+    margin-top: 21px;
+}
+.rightPopUp h2{
+    text-align: right;
+    padding-top: 60px;
+    color: white;
+    text-shadow:1px 2px black;
+}
+.rightPopUp p{
+    color: white;
+    text-align: right;
+
+}
+
+/*==========================rightBlocks==================================*/
+
+
+
+
+
+/*==========================footer==================================*/
+
+.largeFooter{
+    min-height: 170px;
+    background-color: #222222;
+}
+.largeFooter p{
+     color: #DBC048;
+ }
+.largeFooter ul{
+    display: inline-block;
+    list-style-type: none;
+    padding-right: 40px;
+    padding-left: 0;
+}
+.largeFooter a{
+    color: #9E9E9E;
+}
+.largeFooter a:hover{
+    color: #E0E0E0;
+    text-decoration: none;
+    cursor: pointer;
+}
+.largeFooter h3{
+    color: white;
+}
+.smallFooter{
+    background-color: #283593;
+    height:45px;
+    padding-top: 12px;
+}
+.smallFooter p{
+    color:#E0E0E0;
+    font-size: 14px;
+}
+
+/*==========================footer==================================*/
