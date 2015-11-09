@@ -100,17 +100,53 @@ body{
 }
 
 .sliderBlock2{
-    /*background-color: #283593;*/
-    background-image: url("http://images.bizorg.su/goods/598/312/5983125.jpeg");
+    background-color: #283593;
 }
+.sliderBlock2 h4, h1{
+    color: white;
+}
+.sliderBlock2 h1{
+    padding-top: 150px;
+}
+.sliderBlock2 .row >:first-child{
+    background: rgba(200, 200, 200, 0.3);
+    height: 400px;
+}
+
+/*.sliderBlock2{
+    background-color: #283593;
+   background-image: url("http://images.bizorg.su/goods/598/312/5983125.jpeg");*
+}*/
+/*
 .sliderBlock2 > div{
     font-size: 32px;
     padding-top: 170px;
     color:#E0E0E0;
-}
+}*/
 
 .sliderBlock3{
     background-color: palegreen;
+}
+.rightPopUp h2{
+    text-align: right;
+    padding-top: 60px;
+    color: white;
+}
+.rightPopUp p{
+    color: white;
+    text-align: right;
+
+}
+.leftPopUp h2{
+    text-align: left;
+    padding-top: 60px;
+    color: white;
+}
+.leftPopUp p{
+    color: white;
+    text-align: left;
+    margin: 0;
+
 }
 
 /*==========================slider==================================*/
@@ -135,7 +171,12 @@ body{
     margin-left: 15px;
     float: right;
 }
-
+.mainContent > div:last-child{
+    border-top: 1px solid #F1F2F2;
+}
+.mainContent h3{
+    margin-top: 10px;
+}
 /*==========================mainContent==================================*/
 
 
@@ -145,7 +186,7 @@ body{
 /*==========================rightBlocks==================================*/
 
 .panel-primary{
-    border-color: #283593;
+    border-color: #F1F2F2;
 }
 .panel-primary > .panel-heading{
     background-color: #283593;
@@ -153,21 +194,21 @@ body{
 }
 
 .rightBlocks{
-
     margin-top: 21px;
 }
-.rightPopUp h2{
-    text-align: right;
-    padding-top: 60px;
-    color: white;
-    text-shadow:1px 2px black;
-}
-.rightPopUp p{
-    color: white;
-    text-align: right;
 
+.panel-body div {
+    font-size: 36px;
 }
-
+.panel-body p {
+    font-size: 20px;
+}
+.panel-title {
+    font-size: 26px;
+}
+.panel-body img{
+    margin-bottom: 10px;
+}
 /*==========================rightBlocks==================================*/
 
 
@@ -177,8 +218,8 @@ body{
 /*==========================footer==================================*/
 
 .largeFooter{
-    min-height: 170px;
-    background-color: #222222;
+    min-height: 180px;
+    background-color: #212121;
 }
 .largeFooter p{
      color: #DBC048;
@@ -201,7 +242,7 @@ body{
     color: white;
 }
 .smallFooter{
-    background-color: #283593;
+    background-color: #000000;
     height:45px;
     padding-top: 12px;
 }
