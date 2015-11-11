@@ -208,6 +208,8 @@ body{
 }
 .panel-body img{
     margin-bottom: 10px;
+    margin-left: 4%;
+    margin-right: 4%;
 }
 /*==========================rightBlocks==================================*/
 

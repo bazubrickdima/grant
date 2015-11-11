@@ -1,11 +1,15 @@
-<head>
-    <title>menu</title>
-</head>
-<body>
+<template name="main">
+    <head>
+        <title>menu</title>
+    </head>
+    <body>
 
     {{>header}}
     {{>nav}}
-    {{>mainWrraper}}
+
+    {{>yield}}
     {{>footer}}
 
-</body>
+
+    </body>
+</template>
