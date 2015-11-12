@@ -24,22 +24,23 @@
                     </div>
                     <!--FORM-->
                     <div>
-                        <form class="form-horizontal">
+                        <form class="form-horizontal" id="contacts">
                             <fieldset>
                                 <legend>Напишіть нам.</legend>
-                                <div class="form-group">
+
+                                <div class="form-group" id="email">
                                     <label for="inputEmail" class="col-lg-2 control-label">Ваш Email:</label>
                                     <div class="col-lg-10">
-                                        <input type="text" class="form-control" id="inputEmail" placeholder="Email">
+                                        <input type="text" class="form-control" id="inputEmail">
                                     </div>
                                 </div>
                                 <div class="form-group">
-                                    <label for="textArea" class="col-sm-2 control-label">Тема:</label>
+                                    <label class="control-label col-sm-2 control-label" for="tema">Тема:</label>
+
                                     <div class="col-lg-10">
-                                        <textarea class="form-control" rows="1" id="textArea"></textarea>
+                                        <input class="form-control" id="tema" type="text" value="">
                                     </div>
                                 </div>
-
 
                                 <div class="form-group">
                                     <label for="textArea" class="col-lg-2 control-label">Повідомлення</label>
@@ -55,10 +56,13 @@
                             </fieldset>
                         </form>
                     </div>
+                   <!-- <div class="alert alert-dismissible alert-danger">
+
+                    </div>-->
                     <!--MAP-->
-                    <div class="contactsMap">
+                   <!-- <div class="contactsMap">
                         map!
-                    </div>
+                    </div>-->
                 </div>
                 {{>rightBlocks}}
             </div>

@@ -10,37 +10,19 @@
                         <table class="table table-striped table-hover ">
                             <thead>
                             <tr>
-                                <th>#</th>
                                 <th>Види послуг</th>
                                 <th>Грн. за люд/год(з пдв)</th>
                                 <th>Грн. за місяць(з пдв)</th>
                             </tr>
                             </thead>
                             <tbody>
-                            <tr>
-                                <td>1</td>
-                                <td>цілодобовий</td>
-                                <td>2</td>
-                                <td>2</td>
-                            </tr>
-                            <tr>
-                                <td>1</td>
-                                <td>цілодобовий</td>
-                                <td>2</td>
-                                <td>2</td>
-                            </tr>
-                            <tr>
-                                <td>1</td>
-                                <td>цілодобовий</td>
-                                <td>2</td>
-                                <td>2</td>
-                            </tr>
-                            <tr>
-                                <td>1</td>
-                                <td>цілодобовий</td>
-                                <td>2</td>
-                                <td>2</td>
-                            </tr>
+                           {{#each Prices}}
+                               <tr>
+                                   <td>{{Poslugi}}</td>
+                                   <td>{{grnZaDen}}</td>
+                                   <td>{{grnZaMisac}}</td>
+                               </tr>
+                           {{/each}}
                             </tbody>
                         </table>
 

@@ -13,5 +13,6 @@ Template.sliderBlock1.onRendered(function() {
     $('.rightPopUp').fadeIn(2000);
 });
 Template.main.onRendered(function() {
-    $('.rightPopUp').hide();
+    Meteor.subscribe('price');
+    Meteor.subscribe('stats');
 });
